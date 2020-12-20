@@ -1,0 +1,45 @@
+i 0
+i 1
+i 2
+i 3
+i 4
+setd 1;4;1
+setd 2;3;47
+setd 1;3;45
+setd 1;0;49
+setd 0;4;6
+setd 0;2;1
+i 1
+i 2
+setd 0;2;-10
+setd x;1;1
+setd 1;x;1
+setd 1;1;1
+s x
+s 1
+degree 0
+i 7
+degree 7
+graph_nodes
+graph_edges
+d 3;0
+d x;1
+d 1;x
+d 1;1
+d 0;4
+shortest_d 3;0
+shortest_d x;1
+shortest_d 1;x
+shortest_d 1;1
+shortest_d 0;4
+clear
+graph_nodes
+graph_edges
+i 0
+i 1
+i 2
+i 3
+i 4
+print_path 1;4
+setd 1;4;1
+print_path 1;4
